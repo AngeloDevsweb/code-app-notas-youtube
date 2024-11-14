@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "app-notes-yt-tutorial",
-    "slug": "app-notes-yt-tutorial",
-    "version": "1.0.0",
+    "name": "appNotasDev",
+    "slug": "appNotasDev",
+    "version": "1.1.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/splashappnote.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -19,10 +19,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.angelodevsweb.appNotasDev"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "550a2ba2-ab1d-413a-b7b3-5facb336ede5"
+      }
     }
   }
 }
